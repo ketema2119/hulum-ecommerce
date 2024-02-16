@@ -6,7 +6,7 @@
 - Firebase
 
 ## Live Demo
-The website is live and can be accessed at [Hulum E-commerce](https://jonathan-4a.github.io/hulum-ecommerce/)
+The website is live and can be accessed at [Hulum E-commerce](https://ketema2119.github.io/hulum-ecommerce/)
 
 ## Figma Design
 The design of the website was created using Figma, and the design can be accessed at [Figma Design](https://www.figma.com/file/m95MPdamhlpCiWtkSimRoJ/Hulum-Shopify?node-id=0%3A1&t=KOt4Ng94yK1u7Z6V-1)
