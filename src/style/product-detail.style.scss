@@ -1,0 +1,180 @@
+.product-detail {
+  .wrapper {
+    width: 100%;
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+      width: 54%;
+
+      .navigation {
+        
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        column-gap: 1.2rem;
+        font-style: italic;
+        a {
+          font-weight: 400;
+          font-size: 1.6rem;
+          line-height: 2.5rem;
+          color: #464646;
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+            text-decoration-color: #464646;
+          }
+        }
+      }
+    
+      .product {
+        margin-top: 5.5rem;
+        margin-bottom: 15rem;
+        display: flex;
+        column-gap: 5rem;
+    
+        .imgs {
+          display: flex;
+          column-gap: 1.5rem;
+          
+          .main-img {
+            width: 53rem;
+            height: 53rem;
+            border-radius: .8rem;
+            
+          }
+          
+          .side-images {
+            
+            display: flex;
+            flex-direction: column;
+            grid-gap: 1.5rem;
+            background-image: cover;
+            .img {
+              background-image: url('../assets/images/shoe.jpg');
+              background-size: cover;
+              background-position: 50%;
+              width: 7.1rem;
+              height: 7.1rem;
+              border-radius: .3rem;
+            }
+          }
+        }
+    
+        .description {
+          .product-name {
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 33px;
+            color: #434343;
+            margin-bottom: 2.5rem;
+          }
+    
+          .brand {
+            font-weight: 500;
+            font-size: 1.5rem;
+            line-height: 2.2rem;
+            color: #454545;
+            margin-bottom: 2.5rem;
+            margin-right: 1rem;
+    
+            span {
+              font-weight: 600;
+              font-size: 1.5rem;
+              line-height: 2.2rem;
+              color: #434343;
+            }
+          }
+
+          .stars {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            column-gap: .4rem;
+          }
+    
+          .raters {
+            font-weight: 400;
+            font-size: 1.3rem;
+            line-height: 2rem;
+            color: #707070;
+            margin-left: 1rem;
+          }
+    
+          .full-detail {
+            margin-top: 2.5rem;
+            font-weight: 400;
+            font-size: 1.5rem;
+            line-height: 2.5rem;
+            letter-spacing: 0.02em;
+    
+            color: #242424;
+          }
+    
+          .price {
+            margin-top: 2.5rem;
+            font-family: 'Archivo', sans-serif;
+            font-weight: 700;
+            font-size: 2rem;
+            line-height: 2.2rem;
+            letter-spacing: 0.12em;
+            color: #404040;
+          }
+          
+          .product-size {
+            margin-top: 2.5rem;
+            input {
+              margin-right: 3.2rem;
+              padding: .7rem;
+              width: 5rem;
+              height: 4rem;
+              font-weight: 500;
+              font-size: 1.5rem;
+              line-height: 2.2rem;
+              color: #303030;
+              outline: none;
+            }
+    
+            button {
+              width: 12.1rem;
+              height: 4rem;
+              background: #c93434;
+              border: .2rem solid #CF6060;
+              border-radius: 1.2rem;
+        
+              font-weight: 700;
+              font-size: 1.5rem;
+              line-height: 2.2rem;
+              color: #FFFFFF;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+
+      span.related-products {
+          font-weight: 600;
+          font-size: 2.5rem;
+          line-height: 3.8rem;
+          color: #434343;
+      }
+
+    }
+
+  }
+  div.related-products {
+    display: flex;
+    justify-content: center;
+    column-gap: 3.4rem;
+    padding: 4.5rem;
+    margin-top: 4.6rem;
+    margin-bottom: 20.4rem;
+    background: #F5F5F5;
+  }
+  
+    
+}

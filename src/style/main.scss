@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  opacity: 1;
+  cursor: pointer;
+}
+
+button {
+  font-family: inherit;
+}
+
+input {
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  font-size: 9px;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fcfcfc;
+  position: relative;
+}
+
+
+
+#root {
+  @import './components.style.scss';
+  @import './landing.style.scss';
+  @import './products.style.scss';
+  @import './variables.scss';
+  @import './product-detail.style.scss';
+  @import './login.style.scss';
+  @import './register.style.scss';
+}
+
+
+@import './cart-modal.style.scss';
