@@ -25,7 +25,7 @@ The design of the website was created using Figma, and the design can be accesse
 ## Getting Started
 1. Clone the repository.
     ```bash
-    git clone https://github.com/jonathan-4a/hulum-ecommerce.git
+    git clone https://github.com/ketema2119/hulum-ecommerce.git
     ```
 
 2. Install dependencies using npm.
